@@ -1,0 +1,12 @@
+<div class="card-qa">
+  <div id="question">
+    <p><%= @question %></p>
+    <p>- You</p>
+  </div>
+  <div id="answer" class="bg-warning bg-opacity-25" >
+    <p><%= @answer %></p>
+    <p>- Your Coach</p>
+  </div>
+
+  <%= link_to 'Ask a new question', ask_path %>
+</div>

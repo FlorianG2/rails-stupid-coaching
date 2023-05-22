@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+ #answer {
+  width: 350px;
+  border-left: solid 3px grey;
+  margin: 10px;
+  padding: 5px;
+ }
+
+ #question {
+  width: 350px;
+  border-left: solid 3px grey;
+  margin: 10px;
+  padding: 5px;
+ }
+
+ .card-qa {
+  margin-left: 10px;
+ }
+
+ #form-qa {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+ }
